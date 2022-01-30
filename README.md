@@ -2,22 +2,24 @@
 ブックマークするほどではないけど、後で読んでおきたいようなサイトを気軽に登録できるアプリケーションです。
 
 ## 利用方法
-- グループ画面
+### グループ画面
   
   <details>
   <summary>イメージ</summary>
   
   ![IMG_0004](https://user-images.githubusercontent.com/59341902/151720648-c7b9f148-73d9-4f67-896c-d0ee6571df73.png)
   </details>
+  
   - サイトをまとめるグループを作成するページ
 
-- サイト一覧画面
+### サイト一覧画面
 
   <details>
   <summary>イメージ</summary>
   
 　![IMG_0003](https://user-images.githubusercontent.com/59341902/151720749-ddfb922c-7711-4204-b6cb-81a0868f99d2.png)
   </details>
+  
   - アイテムをクリックすることでサイトに飛べる。
   - アイテムを長押しすることでシェアできる。
   - textBoxにURLを入力することでサイトを登録できる。(一部取得できないサイトも有るため、今後修正する必要がある。)
