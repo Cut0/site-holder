@@ -11,7 +11,7 @@ import SwiftUI
 struct url_holderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GroupListView()
         }
     }
 }

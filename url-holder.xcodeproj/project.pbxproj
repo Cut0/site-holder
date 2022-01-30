@@ -8,17 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1155EEF827A654DA00579A03 /* url_holderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EEF727A654DA00579A03 /* url_holderApp.swift */; };
-		1155EEFA27A654DA00579A03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EEF927A654DA00579A03 /* ContentView.swift */; };
+		1155EEFA27A654DA00579A03 /* URLListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EEF927A654DA00579A03 /* URLListView.swift */; };
 		1155EEFC27A654DB00579A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1155EEFB27A654DB00579A03 /* Assets.xcassets */; };
 		1155EEFF27A654DB00579A03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1155EEFE27A654DB00579A03 /* Preview Assets.xcassets */; };
+		1155EF0627A6550700579A03 /* Site+mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EF0527A6550700579A03 /* Site+mocks.swift */; };
+		1155EF0A27A6566800579A03 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EF0927A6566800579A03 /* URLImage.swift */; };
+		1155EF0D27A65BD700579A03 /* OpenGraph in Frameworks */ = {isa = PBXBuildFile; productRef = 1155EF0C27A65BD700579A03 /* OpenGraph */; };
+		1155EF0F27A65C3A00579A03 /* SiteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EF0E27A65C3A00579A03 /* SiteItem.swift */; };
+		1155EF1127A66DF600579A03 /* SiteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EF1027A66DF600579A03 /* SiteData.swift */; };
+		1155EF1927A6A53D00579A03 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155EF1827A6A53D00579A03 /* LoadingIndicator.swift */; };
+		11C8D6C527A6C95A00639B99 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8D6C427A6C95A00639B99 /* GroupListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1155EEF427A654DA00579A03 /* url-holder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "url-holder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1155EEF727A654DA00579A03 /* url_holderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = url_holderApp.swift; sourceTree = "<group>"; };
-		1155EEF927A654DA00579A03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1155EEF927A654DA00579A03 /* URLListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLListView.swift; sourceTree = "<group>"; };
 		1155EEFB27A654DB00579A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1155EEFE27A654DB00579A03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1155EF0527A6550700579A03 /* Site+mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Site+mocks.swift"; sourceTree = "<group>"; };
+		1155EF0927A6566800579A03 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		1155EF0E27A65C3A00579A03 /* SiteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteItem.swift; sourceTree = "<group>"; };
+		1155EF1027A66DF600579A03 /* SiteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteData.swift; sourceTree = "<group>"; };
+		1155EF1827A6A53D00579A03 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		11C8D6C427A6C95A00639B99 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1155EF0D27A65BD700579A03 /* OpenGraph in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +65,11 @@
 		1155EEF627A654DA00579A03 /* url-holder */ = {
 			isa = PBXGroup;
 			children = (
-				1155EEF727A654DA00579A03 /* url_holderApp.swift */,
-				1155EEF927A654DA00579A03 /* ContentView.swift */,
+				11C8D6C327A6B1E900639B99 /* Components */,
+				1155EF1527A6925500579A03 /* Views */,
+				1155EF1227A66E1100579A03 /* Models */,
 				1155EEFB27A654DB00579A03 /* Assets.xcassets */,
+				1155EEF727A654DA00579A03 /* url_holderApp.swift */,
 				1155EEFD27A654DB00579A03 /* Preview Content */,
 			);
 			path = "url-holder";
@@ -62,9 +78,45 @@
 		1155EEFD27A654DB00579A03 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1155EF0827A6554B00579A03 /* Mocks */,
 				1155EEFE27A654DB00579A03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1155EF0827A6554B00579A03 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1155EF0527A6550700579A03 /* Site+mocks.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		1155EF1227A66E1100579A03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1155EF1027A66DF600579A03 /* SiteData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1155EF1527A6925500579A03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1155EEF927A654DA00579A03 /* URLListView.swift */,
+				11C8D6C427A6C95A00639B99 /* GroupListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11C8D6C327A6B1E900639B99 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1155EF0927A6566800579A03 /* URLImage.swift */,
+				1155EF0E27A65C3A00579A03 /* SiteItem.swift */,
+				1155EF1827A6A53D00579A03 /* LoadingIndicator.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,9 @@
 			dependencies = (
 			);
 			name = "url-holder";
+			packageProductDependencies = (
+				1155EF0C27A65BD700579A03 /* OpenGraph */,
+			);
 			productName = "url-holder";
 			productReference = 1155EEF427A654DA00579A03 /* url-holder.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 1155EEEB27A654DA00579A03;
+			packageReferences = (
+				1155EF0B27A65BD700579A03 /* XCRemoteSwiftPackageReference "OpenGraph" */,
+			);
 			productRefGroup = 1155EEF527A654DA00579A03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1155EEFA27A654DA00579A03 /* ContentView.swift in Sources */,
+				1155EF0F27A65C3A00579A03 /* SiteItem.swift in Sources */,
+				1155EEFA27A654DA00579A03 /* URLListView.swift in Sources */,
+				11C8D6C527A6C95A00639B99 /* GroupListView.swift in Sources */,
+				1155EF1127A66DF600579A03 /* SiteData.swift in Sources */,
+				1155EF1927A6A53D00579A03 /* LoadingIndicator.swift in Sources */,
+				1155EF0627A6550700579A03 /* Site+mocks.swift in Sources */,
+				1155EF0A27A6566800579A03 /* URLImage.swift in Sources */,
 				1155EEF827A654DA00579A03 /* url_holderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +405,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1155EF0B27A65BD700579A03 /* XCRemoteSwiftPackageReference "OpenGraph" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/satoshi-takano/OpenGraph";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1155EF0C27A65BD700579A03 /* OpenGraph */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1155EF0B27A65BD700579A03 /* XCRemoteSwiftPackageReference "OpenGraph" */;
+			productName = OpenGraph;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1155EEEC27A654DA00579A03 /* Project object */;
 }
